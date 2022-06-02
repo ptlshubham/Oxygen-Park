@@ -83,7 +83,7 @@ a:hover {
 
 section {
   position: relative;
-  padding-top: 110px;
+  /* padding-top: 110px; */
   padding-bottom: 110px;
 }
 
@@ -1150,6 +1150,7 @@ h6 {
 
 .heading__desc {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .heading-layout2 .heading__title {
@@ -3772,7 +3773,7 @@ input[type=radio] {
     Footer
 --------------------------*/
 .footer {
-  background-color: #0a2d43;
+  background-color: #47a145;
 }
 
 .footer .footer-primary {
@@ -3807,7 +3808,7 @@ input[type=radio] {
 
 .footer .footer-form .form-control {
   border-color: transparent;
-  background-color: #00243b;
+  /* background-color: #00243b; */
   color: #8097a1;
   font-size: 14px;
   border-radius: 4px;
