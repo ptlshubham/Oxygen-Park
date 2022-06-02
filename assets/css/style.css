@@ -7768,13 +7768,14 @@ input[type=radio] {
 
 .service-item .service__content {
   padding: 50px;
+  height: 25rem;
 }
 
 .service-item .service__icon {
   color: #000000;
   font-size: 70px;
   line-height: 1;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -7787,6 +7788,7 @@ input[type=radio] {
 .service-item .service__desc {
   font-size: 14px;
   margin-bottom: 22px;
+  text-align: justify;
 }
 
 .service-item .service__img {
