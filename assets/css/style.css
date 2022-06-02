@@ -3548,7 +3548,7 @@ input[type=radio] {
 
   .navbar .dropdown-menu.wide-dropdown-menu {
     padding: 0;
-    min-width: 500px;
+    /* min-width: 500px; */
     overflow: hidden;
   }
 
