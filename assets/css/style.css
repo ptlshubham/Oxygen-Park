@@ -1268,7 +1268,7 @@ h6 {
 }
 
 .page-title {
-  padding-top: 230px;
+  padding-top: 330px;
   padding-bottom: 150px;
 }
 
@@ -2160,7 +2160,7 @@ input[type=radio] {
   width: 0;
   height: 2px;
   margin: auto;
-  background-color: #47a145;
+  background-color: #fff;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
@@ -3033,13 +3033,13 @@ input[type=radio] {
 .secondary-nav-layout2 {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: #000000;
+  background-color: #335a00;
   border-bottom-color: #000000;
 }
 
 .secondary-nav-sticky .nav-tabs .nav__link,
 .secondary-nav-layout2 .nav-tabs .nav__link {
-  color: #8097a1;
+  color: #000000;
 }
 
 .secondary-nav-sticky .nav-tabs .nav__link.active,
@@ -5794,6 +5794,7 @@ input[type=radio] {
 .post-item .post__desc {
   font-size: 14px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .post-item .btn__link {
@@ -7445,7 +7446,7 @@ input[type=radio] {
 }
 
 .semi-banner .heading__title {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .semi-banner .heading_desc {
