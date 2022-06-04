@@ -100,7 +100,7 @@ $(function () {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
-            'background-size': 'auto',
+            'background-size': 'cover',
             'background-position': 'center',
             'background-repeat': 'no-repeat'
         });
