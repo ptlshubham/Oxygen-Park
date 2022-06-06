@@ -3748,6 +3748,7 @@ input[type=radio] {
 
 .accordion-item .accordion__body {
   padding-top: 20px;
+  text-align: justify;
 }
 
 .accordion-item .accordion__body p {
@@ -7770,7 +7771,7 @@ input[type=radio] {
 
 .service-item .service__content {
   padding: 50px;
-  height: 25rem;
+  height: 27rem;
 }
 
 .service-item .service__icon {
@@ -8362,6 +8363,7 @@ input[type=radio] {
   color: #8097a1;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .process-item.active .process-item__icon:after {
