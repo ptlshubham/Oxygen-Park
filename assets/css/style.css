@@ -84,7 +84,7 @@ a:hover {
 section {
   position: relative;
   padding-top: 70px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 img {
@@ -2416,8 +2416,9 @@ input[type=radio] {
   .list-horizontal li {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+    /* flex: 0 0 100%; */
     max-width: 100%;
+    flex: none !important;
   }
 }
 
@@ -2882,7 +2883,7 @@ input[type=radio] {
 }
 
 .navbar .dropdown-menu .nav__item .nav__item-link {
-  color: #9b9b9b;
+  color: #000;
   text-transform: capitalize;
   font-size: 14px;
   font-weight: 400;
@@ -3021,7 +3022,8 @@ input[type=radio] {
 .secondary-nav {
   top: 80px;
   z-index: 1000;
-  border-bottom: 1px solid #e7ebef;
+  border-bottom: 1px solid #47a145;
+  background-color: #47a145;
 }
 
 .secondary-nav .nav__link:after {
@@ -3039,7 +3041,7 @@ input[type=radio] {
 
 .secondary-nav-sticky .nav-tabs .nav__link,
 .secondary-nav-layout2 .nav-tabs .nav__link {
-  color: #000000;
+  color: #fff;
 }
 
 .secondary-nav-sticky .nav-tabs .nav__link.active,
@@ -3567,7 +3569,7 @@ input[type=radio] {
   }
 
   .navbar .dropdown-menu.wide-dropdown-menu .dropdown-menu-col {
-    padding: 40px 0 27px;
+    padding: 20px 0 20px;
   }
 
   .navbar .dropdown-menu.wide-dropdown-menu .dropdown-menu-col:first-child {
@@ -4212,8 +4214,8 @@ input[type=radio] {
 }
 
 .slider .slide-item {
-  height: calc(100vh - 140px);
-  min-height: 500px;
+  height: calc(100vh - 300px);
+  min-height: 200px;
 }
 
 .slider .slide__subtitle {
@@ -4226,7 +4228,7 @@ input[type=radio] {
 }
 
 .slider .slide__title {
-  font-size: 75px;
+  font-size: 50px;
   font-weight: 800;
   line-height: 1.1;
   color: #ffffff;
@@ -5727,10 +5729,10 @@ input[type=radio] {
   transition: all 0.9s ease;
 }
 
-.post-item:hover .post__img img {
+/* .post-item:hover .post__img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 .post-item .post__content {
   padding: 30px 0 0 30px;
@@ -8063,8 +8065,8 @@ input[type=radio] {
 }
 
 .awards .fancybox-item:hover .fancybox__icon-img img {
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .awards .fancybox-item:hover .fancybox__title {
@@ -8325,7 +8327,7 @@ input[type=radio] {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 2px solid rgba(230, 233, 235, 0.1);
+  border: 2px solid rgba(71, 161, 69, 1);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -8347,8 +8349,8 @@ input[type=radio] {
   left: 0;
   bottom: 0;
   width: 2px;
-  opacity: .1;
-  background-color: #e6e9eb;
+  opacity: .3;
+  background-color: #000;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
